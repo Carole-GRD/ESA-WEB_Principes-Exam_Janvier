@@ -1,0 +1,66 @@
+/* https://labos.ovh/docs/exercices/exam-janvier */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+:root {
+    --color-menu: #028391;
+    --color-menu-item: #007BFF;
+    --color-menu-item-hover: #0056b3;
+    --color-fond: #F2E9E4;
+    --color-card: #fff;
+    --color-footer: #373A40;
+    --color-buton-contact: #808836;
+    --color-buton-contact-hover: #365E32;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--color-fond);
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-menu);
+}
+
+header div img {
+    width: 75px;
+    height: 75px;
+    margin: 0.5rem;
+}
+
+/* Menu */
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+nav a {
+    margin: 0 .5rem;
+    background-color: var(--color-menu-item);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--color-menu-item-hover);
+
+}
+
+nav a p {
+    font-size: 1.5rem;
+    color: var(--color-card);
+    padding: 0.5rem 1rem;
+}
