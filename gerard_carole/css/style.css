@@ -14,6 +14,7 @@
     --color-menu-item-hover: #0056b3;
     --color-fond: #F2E9E4;
     --color-card: #fff;
+    --color-card-title: #551a8b;
     --color-footer: #373A40;
     --color-buton-contact: #808836;
     --color-buton-contact-hover: #365E32;
@@ -21,6 +22,9 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
     background-color: var(--color-fond);
     color: #333;
     font-size: 16px;
@@ -63,4 +67,60 @@ nav a p {
     font-size: 1.5rem;
     color: var(--color-card);
     padding: 0.5rem 1rem;
+}
+
+/* Main */
+main {
+    position: relative;
+    margin: 1rem;
+}
+
+main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+/* Section dinos */
+#dinos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card */
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    background-color: var(--color-card);
+    border-radius: 8px;
+}
+article:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+article img {
+    display: none;
+}
+
+article div {
+    margin: 1rem;
+}
+
+article h2 {
+    color: var(--color-card-title);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Section paleoart */
+#paleoart-link {
+    padding-top: 2rem;
+}
+
+#paleoart iframe {
+    height: 250px; 
 }

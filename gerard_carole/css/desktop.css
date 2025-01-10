@@ -1,0 +1,64 @@
+@media screen and (min-width: 480px) {
+    main {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        margin: 3rem;
+    }
+
+    #paleoart iframe {
+        height: 300px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #dinos {
+        position: relative;
+    }
+
+    article {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        width: 600px;
+        height: 150px;
+    }
+
+    article img {
+        display: block;
+        width: 30%;
+        object-fit: cover;
+        border-radius: 8px 0 0 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #dinos {
+        margin: 0 2rem;
+    }
+    article {
+        width: 49%;
+        left: 0;
+        transform: none;
+    }
+
+    
+    #paleoart iframe {
+        height: 400px; 
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    article {
+        width: 32%;
+    }
+
+    
+    #paleoart iframe {
+        height: 500px; 
+    }
+}

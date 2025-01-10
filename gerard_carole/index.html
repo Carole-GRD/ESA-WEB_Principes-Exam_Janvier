@@ -5,28 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinosaures</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
-<body>
+<body id="home-link">
     <header>
         <div>
-            <a href="dinos">
+            <a href="#home-link">
                 <img src="./img/logo.png" alt="Logo de dinosaure. Ce logo est clicable et redirige vers la page d'accueil.'">
             </a>
         </div>
 
         <nav>
-            <a href="paleoart"><p>Paléoart</p></a>
+            <a href="#paleoart-link"><p>Paléoart</p></a>
             <a href="#"><p>Contact</p></a>
         </nav>
     </header>
 
     <main>
+        <h1>Dinosaures</h1>
         <section id="dinos">
-            <h1>Dinosaures</h1>
+            <article>
+                <img src="./img/spinosaurus.jpg" alt="Image d'un spinosaure">
+                <div>
+                    <h2>Spinosaure</h2>
+                    <p>Un géant aquatique avec une grande voile sur le dos, qui chassait probablement dans les rivières et les marais.</p>
+                </div>
+            </article>
+
+            <article>
+                <img src="./img/oviraptor.jpg" alt="Image d'un oviraptor">
+                <div>
+                    <h2>Oviraptor</h2>
+                    <p>Un petit dinosaure au bec de perroquet, connu pour couver soigneusement ses œufs.</p>
+                </div>
+            </article>
+
+            <article>
+                <img src="./img/ankylosaurus.jpg" alt="Image d'un ankylosaure">
+                <div>
+                    <h2>Ankylosaure</h2>
+                    <p>Un tank vivant couvert d'armures, armé d'une queue en forme de massue pour se défendre.</p>
+                </div>
+            </article>
+
+            <article>
+                <img src="./img/maiasaurus.jpg" alt="Image d'un maiasaura">
+                <div>
+                    <h2>Maiasaura</h2>
+                    <p>Une maman attentionnée, célèbre pour s'occuper de ses bébés dinosaures dans des nids.</p>
+                </div>
+            </article>
         </section>
 
-        <section id="paleoart">
+        <div id="paleoart-link">
             <h1>Paléoart</h1>
+        </div>
+        <section id="paleoart">
+            <!-- TODO : Corriger vidéo -->
+
+            <div id="video">
+                <iframe 
+                    width="100%" 
+                    
+                    src="https://www.youtube.com/embed/qZqjdt8N5Wc?si=ylmfXm3TvRY1O2N0" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div id="description">
+                <p>
+                    Le paléoart, c'est un peu comme un voyage dans le temps grâce à l'art. Imaginez des peintures, des sculptures ou même des images de synthèse qui nous montrent à quoi pouvaient ressembler les animaux et les paysages d'il y a des millions d'années. On y voit des dinosaures bien sûr, mais aussi des créatures marines géantes, des mammouths laineux et des forêts luxuriantes aujourd'hui disparues. Les artistes qui font du paléoart se basent sur les découvertes des paléontologues, les scientifiques qui étudient les fossiles, pour donner vie à ces mondes anciens. C'est une façon fascinante de rendre la science plus accessible et de laisser libre cours à notre imagination.
+                </p>
+
+                <p>
+                    Ce qui est intéressant avec le paléoart, c'est que ça évolue en même temps que la science. Au début, on imaginait les dinosaures comme de gros lézards lents et trapus. Puis, au fur et à mesure des découvertes de nouveaux fossiles et des avancées de la recherche, on a compris qu'ils étaient souvent plus agiles, parfois couverts de plumes, et beaucoup plus diversifiés qu'on ne le pensait. Les artistes adaptent alors leurs représentations en conséquence, ce qui fait que le paléoart est un reflet des connaissances scientifiques d'une époque. On peut ainsi observer l'évolution de notre compréhension du passé à travers ces œuvres.
+                </p>
+    
+                <p>
+                    Le paléoart n'est pas seulement une représentation fidèle du passé, c'est aussi une forme d'art à part entière. Les artistes utilisent leur talent pour créer des images saisissantes, qui nous émerveillent et nous font rêver. Ils jouent avec les couleurs, les textures, les perspectives pour donner vie à ces créatures disparues et nous plonger dans des paysages préhistoriques. Que ce soit une peinture réaliste, une sculpture impressionnante ou une illustration pleine de détails, le paléoart nous offre une fenêtre unique sur un monde disparu, un pont entre la science et l'imagination.
+                </p>  
+            </div>
         </section>
 
     </main>
