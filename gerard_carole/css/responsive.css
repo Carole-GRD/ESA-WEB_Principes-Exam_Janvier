@@ -15,16 +15,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    #dinos {
-        position: relative;
-    }
-
     article {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+        justify-self: center;
         flex-direction: row;
-        width: 600px;
+        min-width: 500px;
         height: 150px;
     }
 
@@ -37,28 +31,36 @@
 }
 
 @media screen and (min-width: 1200px) {
-    #dinos {
-        margin: 0 2rem;
-    }
-    article {
-        width: 49%;
-        left: 0;
-        transform: none;
+    .grid-container {
+        max-width: 1300px;
+        grid-template-columns: 1fr 1fr; 
+        justify-self: center;
     }
 
-    
     #paleoart iframe {
         height: 400px; 
     }
 }
 
-@media screen and (min-width: 1600px) {
-    article {
-        width: 32%;
+@media screen and (min-width: 1700px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); 
+        min-width: 1500px;
+        max-width: 1650px;
+        gap: 1.5rem;
     }
 
-    
+    article {
+        height: 160px;
+    }
+
     #paleoart iframe {
         height: 500px; 
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .grid-container {
+        margin: 0;
     }
 }

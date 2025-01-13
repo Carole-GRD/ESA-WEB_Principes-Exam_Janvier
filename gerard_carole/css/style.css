@@ -27,7 +27,7 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     background-color: var(--color-fond);
     color: #333;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -81,46 +81,3 @@ main h1 {
     margin: 1rem 0;
 }
 
-/* Section dinos */
-#dinos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-/* Card */
-article {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 1rem 0;
-    background-color: var(--color-card);
-    border-radius: 8px;
-}
-article:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-article img {
-    display: none;
-}
-
-article div {
-    margin: 1rem;
-}
-
-article h2 {
-    color: var(--color-card-title);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-/* Section paleoart */
-#paleoart-link {
-    padding-top: 2rem;
-}
-
-#paleoart iframe {
-    height: 250px; 
-}

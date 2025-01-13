@@ -1,0 +1,65 @@
+
+/* -----  Section card (dinosaures)  ----- */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+
+/* Card */
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 650px;
+    background-color: var(--color-card);
+    border-radius: 10px;
+}
+article:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+article img {
+    display: none;
+}
+
+article div {
+    margin: 1rem;
+}
+
+article h2 {
+    color: var(--color-card-title);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* -----  Section paleoart  ----- */
+#paleoart h1 {
+    padding-top: 2rem;
+}
+
+#paleoart #video {
+    margin-bottom: 2rem;
+}
+
+#paleoart iframe {
+    height: 250px; 
+}
+
+#paleoart p {
+    margin: 1rem 0 0 2rem;
+}
+
+.txt-bold {
+    font-weight: 700;
+}
+
+.txt-underlined {
+    text-decoration: underline;
+}
+
+.txt-italic {
+    font-style: italic;
+}
