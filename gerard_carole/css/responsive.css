@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {    
     main {
         margin: 2rem;
     }
@@ -15,6 +15,14 @@
 }
 
 @media screen and (min-width: 768px) {
+    nav {
+        margin: 0 1.5rem;
+    }
+
+    nav a p {
+        font-size: 1.5rem;
+    }
+
     article {
         justify-self: center;
         flex-direction: row;
@@ -47,7 +55,7 @@
         grid-template-columns: repeat(3, 1fr); 
         min-width: 1500px;
         max-width: 1650px;
-        gap: 1.5rem;
+        gap: 2rem;
     }
 
     article {

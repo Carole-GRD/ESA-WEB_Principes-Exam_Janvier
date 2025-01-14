@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
-<body id="home-link">
+<body>
     <header>
         <div>
-            <a href="#home-link">
+            <a href="#dinos">
                 <img src="./img/logo.png" alt="Logo de dinosaure. Ce logo est clicable et redirige vers la page d'accueil.'">
             </a>
         </div>
 
         <nav>
-            <a href="#paleoart-link"><p>Paléoart</p></a>
-            <a href="#"><p>Contact</p></a>
+            <a href="#paleoart"><p>Paléoart</p></a>
+            <a href="./contact.html"><p>Contact</p></a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="dinos">
             <h1>Dinosaures</h1>
 
             <div class="grid-container">
                 <article>
                     <img src="./img/spinosaurus.jpg" alt="Image d'un spinosaure">
                     <div>
-                        <h2>Spinosaure</h2>
+                        <a href="https://fr.wikipedia.org/wiki/Spinosaurus" target="_blank">
+                            <h2>Spinosaure</h2>
+                        </a>
                         <p>Un géant aquatique avec une grande voile sur le dos, qui chassait probablement dans les rivières et les marais.</p>
                     </div>
                 </article>
@@ -38,7 +40,9 @@
                 <article>
                     <img src="./img/oviraptor.jpg" alt="Image d'un oviraptor">
                     <div>
-                        <h2>Oviraptor</h2>
+                        <a href="https://fr.wikipedia.org/wiki/Oviraptor" target="_blank">
+                            <h2>Oviraptor</h2>
+                        </a>
                         <p>Un petit dinosaure au bec de perroquet, connu pour couver soigneusement ses œufs.</p>
                     </div>
                 </article>
@@ -46,7 +50,9 @@
                 <article>
                     <img src="./img/ankylosaurus.jpg" alt="Image d'un ankylosaure">
                     <div>
-                        <h2>Ankylosaure</h2>
+                        <a href="https://fr.wikipedia.org/wiki/Ankylosaurus" target="_blank">
+                            <h2>Ankylosaure</h2>
+                        </a>
                         <p>Un tank vivant couvert d'armures, armé d'une queue en forme de massue pour se défendre.</p>
                     </div>
                 </article>
@@ -54,7 +60,9 @@
                 <article>
                     <img src="./img/maiasaurus.jpg" alt="Image d'un maiasaura">
                     <div>
-                        <h2>Maiasaura</h2>
+                        <a href="https://fr.wikipedia.org/wiki/Maiasaura" target="_blank">
+                            <h2>Maiasaura</h2>
+                        </a>
                         <p>Une maman attentionnée, célèbre pour s'occuper de ses bébés dinosaures dans des nids.</p>
                     </div>
                 </article>
@@ -65,14 +73,10 @@
             <h1>Paléoart</h1>
 
             <!-- TODO : Corriger vidéo -->
-
             <div id="video">
                 <iframe 
-                    width="100%" 
-                    
                     src="https://www.youtube.com/embed/qZqjdt8N5Wc?si=ylmfXm3TvRY1O2N0" 
                     title="YouTube video player" 
-                    frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
@@ -101,7 +105,9 @@
                 <h2>Ressources</h2>
                 <ul>
                     <li>
-                        <a href="" target="_blank"></a>
+                        <a href="https://www.flaticon.com/fr/" target="_blank">Flaticon</a>
+                        <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">Html</a>
+                        <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">CSS</a>
                     </li>
                 </ul>
             </div>
@@ -109,7 +115,8 @@
                 <h2>Vérification</h2>
                 <ul>
                     <li>
-                        <a href="" target="_blank"></a>
+                        <a href="https://validator.w3.org/#validate_by_uri" target="_blank">Html validator</a>
+                        <a href="https://jigsaw.w3.org/css-validator/#validate_by_uri" target="_blank">Css validator</a>
                     </li>
                 </ul>
             </div>

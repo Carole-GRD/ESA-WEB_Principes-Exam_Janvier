@@ -1,5 +1,8 @@
-
 /* -----  Section card (dinosaures)  ----- */
+#dinos {
+    padding-top: 90px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,16 +31,27 @@ article div {
     margin: 1rem;
 }
 
+article a {
+    text-decoration: none;
+}
+
 article h2 {
     color: var(--color-card-title);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
+article h2:hover {
+    color: var(--color-card-title-hover);
+}
+article h2:active {
+    color: var(--color-card-title);
+}
+
 
 /* -----  Section paleoart  ----- */
-#paleoart h1 {
-    padding-top: 2rem;
+#paleoart {
+    padding-top: 50px;
 }
 
 #paleoart #video {
@@ -46,6 +60,7 @@ article h2 {
 
 #paleoart iframe {
     height: 250px; 
+    width: 100%;
 }
 
 #paleoart p {
