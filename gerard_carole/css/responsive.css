@@ -36,6 +36,16 @@
         object-fit: cover;
         border-radius: 8px 0 0 5px;
     }
+
+    #footer-content {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: space-between;
+        width: 60%;
+        margin-left: 5vw;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -48,6 +58,8 @@
     #paleoart iframe {
         height: 400px; 
     }
+
+
 }
 
 @media screen and (min-width: 1700px) {
