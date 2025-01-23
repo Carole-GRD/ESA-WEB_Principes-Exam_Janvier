@@ -1,0 +1,32 @@
+@media screen and (min-width: 350px) {
+    #form-container {
+        top: 95px;
+        height: calc(100vh - 95px);
+    }
+
+    form {
+        min-width: 90vw; 
+    }
+}
+
+@media screen and (min-width: 480px) {
+    form {
+        min-width: 80vw; 
+    }
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        min-width: 500px;
+        max-width: 800px;
+        width: clamp(500px, 50%, 800px);
+    }
+}
+
+/* @media screen and (min-width: 768px) {} */
+
+/* @media screen and (min-width: 1200px) {} */
+
+/* @media screen and (min-width: 1700px) {} */
+
+/* @media screen and (min-width: 1850px) {} */

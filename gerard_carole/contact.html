@@ -5,34 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinosaures - Formulaire</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-responsive.css">
     <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/contact-responsive.css">
 </head>
-<body id="home-link">
+<body>
     <header>
         <div>
             <a href="./index.html">
                 <img src="./img/logo.png" alt="Logo de dinosaure. Ce logo est clicable et redirige vers la page d'accueil.'">
             </a>
         </div>
-<!-- 
-        <nav>
-            <a href="#paleoart-link"><p>Paléoart</p></a>
-            <a href="#"><p>Contact</p></a>
-        </nav> -->
     </header>
 
-    <main>
-   
+    <main id="form-main">
+        <form action="/submit" method="post">
+            <h2>Contactez-nous</h2>
 
-
- 
-
-
+            <div class="input-group">
+                <label for="username">Nom *</label>
+                <input type="text" id="username" name="username" 
+                    pattern="[a-zA-Z]+" 
+                    title="Veuillez entrer un nom d'utilisateur valide (lettres uniquement)" 
+                    placeholder="votre nom" 
+                    required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" 
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    title="Veuillez entrer une adresse email valide (exemple : nom@domaine.com)" 
+                    placeholder="votre email" 
+                    required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" 
+                    minlength="10" 
+                    maxlength="500" 
+                    title="Votre message doit contenir entre 10 et 500 caractères." 
+                    required></textarea>
+            </div>
+            <button type="submit" class="submit-buton">Soumettre</button>
+        </form>
     </main>
-
-    <!-- <footer>
-  
-    </footer>     -->
 </body>
 </html>
