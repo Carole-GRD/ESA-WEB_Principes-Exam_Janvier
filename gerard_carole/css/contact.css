@@ -1,4 +1,4 @@
-/* Formulaire de contact */
+/* -----  Formulaire de contact  ----- */
 #form-main {
     top: 60px;
     display: flex;
@@ -8,8 +8,6 @@
     height: calc(100vh - 60px);
 }
 
-
-/* Styles pour le formulaire */
 form {
     max-width: 90vw; 
     padding: 20px;
@@ -29,7 +27,6 @@ label {
     font-weight: 500;
 }
 
-/* Styles pour les champs de formulaire */
 input,
 textarea {
     width: 100%;
@@ -49,8 +46,6 @@ textarea {
     height: 150px;
 }
 
-
-/* Styles pour le bouton de soumission */
 .submit-buton {
     background-color: var(--color-buton-contact);
     color: white;
@@ -61,8 +56,6 @@ textarea {
     font-size: 1.2rem; 
     width: 100%;
 }
-
-/* Styles pour le bouton de soumission au survol */
 .submit-buton:hover {
     background-color: var(--color-buton-contact-hover);
 }

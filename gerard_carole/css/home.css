@@ -1,4 +1,4 @@
-#home-main {
+main {
     margin: 1rem;
 }
 
@@ -63,13 +63,15 @@ article h2:active {
     padding-top: 50px;
 }
 
-#paleoart #video {
-    margin-bottom: 2rem;
+#paleoart #video-container {
+    max-width: 100%; 
+    margin: 0 auto 1.5rem; 
 }
 
-#paleoart iframe {
-    height: 250px; 
-    width: 100%;
+#video-container iframe {
+    aspect-ratio: 16/9;
+    width: 100%; 
+    height: auto; 
 }
 
 #paleoart p {
@@ -100,8 +102,7 @@ footer {
 #footer-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin-left: 20vw;
     margin-bottom: 2rem;
 }
 

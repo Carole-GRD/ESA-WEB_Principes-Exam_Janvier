@@ -1,18 +1,23 @@
 /* @media screen and (min-width: 350px) {} */
 
 @media screen and (min-width: 480px) {
-    #home-main {
+    main {
         margin: 2rem;
+    }
+
+    #footer-content {
+        margin-left: 35%;
     }
 }
 
 @media screen and (min-width: 600px) {
-    #home-main {
+    main {
         margin: 3rem;
     }
 
-    #paleoart iframe {
-        height: 300px; 
+    #paleoart #video-container {
+        height: auto;
+        margin-bottom: 2rem;
     }
 
     article {
@@ -31,6 +36,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    #paleoart iframe {
+        height: 400px; 
+    }
 
     #footer-content {
         flex-direction: row;
@@ -51,7 +60,7 @@
     }
 
     #paleoart iframe {
-        height: 400px; 
+        height: 600px; 
     }
 }
 
@@ -68,7 +77,7 @@
     }
 
     #paleoart iframe {
-        height: 500px; 
+        height: 800px; 
     }
 }
 
